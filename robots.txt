@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://arseniyyx.github.io/dota2-analyzer/sitemap.xml
