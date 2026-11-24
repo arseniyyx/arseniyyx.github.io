@@ -1,7 +1,7 @@
 {
   "version": 2,
   "app": {
-    "version": "1.9.1",
+    "version": "1.9.2",
     "download": "https://github.com/arseniyyx/howdota-mods/releases/latest/download/D2AMods.exe"
   },
   "templates": {
