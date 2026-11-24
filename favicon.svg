@@ -1,1 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="#1d2a1f"/><path d="M32 0v13L13 32H0V19L19 0z" fill="#2a2f3a"/><path d="M0 32 32 0" stroke="#3b8ec2" stroke-width="3.5"/><circle cx="7.5" cy="24.5" r="4" fill="#4fd286"/><circle cx="24.5" cy="7.5" r="4" fill="#f0544a"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="hd-gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4cc6e"/><stop offset="1" stop-color="#c8902c"/></linearGradient>
+    <linearGradient id="hd-red" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e2463a"/><stop offset="1" stop-color="#9c1f1a"/></linearGradient>
+    <radialGradient id="hd-glass" cx=".4" cy=".35" r=".75"><stop offset="0" stop-color="#22293a"/><stop offset="1" stop-color="#0c0f16"/></radialGradient>
+    <clipPath id="hd-lens"><circle cx="26" cy="26" r="15"/></clipPath>
+  </defs>
+  <path d="M38.5 38.5 L55 55" stroke="#7a5418" stroke-width="9" stroke-linecap="round"/>
+  <path d="M38.5 38.5 L55 55" stroke="url(#hd-gold)" stroke-width="6.5" stroke-linecap="round"/>
+  <circle cx="26" cy="26" r="15.5" fill="url(#hd-glass)"/>
+  <g clip-path="url(#hd-lens)">
+    <path d="M17 19.5 L19.5 17 H32.5 L35 19.5 V32.5 L32.5 35 H19.5 L17 32.5 Z" fill="url(#hd-red)"/>
+    <path d="M15 21 L21 15 L37 31 L31 37 Z" fill="#0c0f16"/>
+    <path d="M17.6 21.2 L21.2 17.6 L34.4 30.8 L30.8 34.4 Z" fill="url(#hd-gold)" opacity=".9"/>
+  </g>
+  <circle cx="26" cy="26" r="17" fill="none" stroke="url(#hd-gold)" stroke-width="4.5"/>
+  <path d="M15.5 19 A12.5 12.5 0 0 1 22 13.6" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="2" stroke-linecap="round"/>
+</svg>
